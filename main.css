@@ -1,0 +1,45 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.start
+{
+	background-color: red;
+}
+.end
+{
+	background-color: green;
+}
+.red-cell
+{
+	background-color: black;
+}
+#mainblock
+{
+	padding-top:10px; 
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+.btn
+{
+	margin-top:50px;
+	height: 50px;
+	width: 100px;
+	border-radius: 0;
+	background-color: lightblue;
+	border: 2px solid black;
+
+}
+.btn2
+{
+	margin-top:20px; 
+	margin-right:10px; 
+	height: 20px;
+	width: 20px;
+	border-radius: 0;
+	border: 1px solid black;
+
+
+}
